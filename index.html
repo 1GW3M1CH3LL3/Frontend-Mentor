@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | News homepage</title>
+
+  
+  <style>
+    body{
+    font-family: 'Inter', sans-serif;
+    margin: 70px 100px; }
+    .header{
+      display: flex;
+      justify-content: space-between;
+    }
+    ul{
+    list-style: none;
+    display: flex;
+    
+    }
+    li{
+      margin: 10px; 
+      color: hsl(233, 8%, 79%);
+
+        }
+        .gridcontainer{
+          display: grid;
+          grid-template-columns: auto auto;
+          gap: 15px;
+        }
+        .paragraph2
+        {
+          display: grid;
+          grid-template-columns: 200px 500px;
+          
+        }
+        .thebright{
+          font-size: 35px;
+           
+        }
+        .secondtext{
+          margin-left: 150px;
+          margin-right: 0px;
+          margin-top: 10px;
+          color:  hsl(233, 8%, 79%) ;
+          
+          
+        }
+        button{
+          padding: 10px 50px;
+  
+          background-color:  hsl(5, 85%, 63%);
+          border: none;
+          color: white;
+          margin-top: 30px;
+          
+        }
+        .bottom{
+          display: grid;
+          grid-template-columns: auto auto auto;
+        }
+        .onethird{
+          display: grid;
+          grid-template-columns: auto auto;
+        }
+        .twothird{
+          display: grid;
+          grid-template-columns: auto auto;
+        }
+        .threethird{
+          display: grid;
+          grid-template-columns: auto auto;
+        }
+        .number{
+          font-size: 50px;
+          color:  hsl(233, 8%, 79%) ;
+        }
+  </style>
+</head>
+<body>
+  <section class="header">
+  <div class="image">
+    <img src="assets/images/logo.svg" alt="">
+  </div>
+  <div class="list">
+    <ul>
+      <li>Home</li>
+      <li>New</li>
+      <li>Popular</li>
+      <li>Trending</li>
+      <li>Categories</li>
+    </ul>
+  </div>
+ </section>
+
+  <section class="second part">
+    <div class="gridcontainer">
+      <div class="first">
+        <img   src="assets/images/image-web-3-desktop.jpg" alt="" width="800px" height="500px">
+        <span class="paragraph2">  
+          <div class="thebright">
+             <div>The Bright</div>  
+          <div>Future Of</div>
+          <div>Web 3.0?</div>
+        </div>
+        
+       
+       <div class="secondtext">
+         <div> We dive into the next evolution of web that </div>
+          <div>claims to put the power of platforms back </div> 
+         <div> into the hands of the people. But is it realy</div>
+          <div>fufilling its promise?</div>  
+          <button>Read More</button>
+          
+        </div>
+        
+      
+      </div>
+
+        <div class="img">
+          <img src="assets/images/Screenshot (6).png" alt="" width="300px" height="600px">
+        </div>
+      </div>
+    
+    
+    
+  </section>
+  <section class="bottom" style="margin-top: 50px;">
+    <div class="onethird">
+    <img src="assets/images/image-retro-pcs.jpg" alt="" width="100px" height="150px">
+  
+    <div>
+    <div class="number">01</div>
+    <div> <strong>Reviving Retro PCs</strong> </div>
+    <div style="color: hsl(233, 8%, 79%); margin-top: 10px;">What happens when old PCs</div>
+    <div style="color: hsl(233, 8%, 79%);"> are given mirdern updates</div> 
+  </div>
+</div>
+
+  <div class="twothird">
+    <img src="assets/images/image-top-laptops.jpg" alt="" width="100px" height="150px">
+  
+    <div>
+    <div class="number">02</div>
+    <div> Top Ten Laptops Of 2022 </div>
+    <div style="color: hsl(233, 8%, 79%); margin-top: 10px;">Our best picks for various</div>
+    <div style="color: hsl(233, 8%, 79%);"> needs and budgets</div>
+  </div> 
+    
+  
+
+  </div>
+  <div class="threethird">
+    <img src="assets/images/image-gaming-growth.jpg" alt="" width="100px" height="150px">
+  
+    <div>
+    <div class="number">03</div>
+    <div> The Growth Of Gaming </div>
+    <div style="color: hsl(233, 8%, 79%); margin-top: 10px;">How the pandemic has sparked </div>
+    <div style="color: hsl(233, 8%, 79%);"> fresh opportunities</div> 
+  </div>
+
+  </div>
+  </section>
+
+
+
+
+  
+ 
+</body>
+</html>
